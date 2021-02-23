@@ -55,7 +55,7 @@ public class FilterWord {
             Arrays.fill(charsStars, '*');
             final String stars = new String(charsStars);
 
-            
+
             inputToReturn = inputToReturn.replaceAll("(?i)" + swearWord, stars);
         }
         return inputToReturn;
